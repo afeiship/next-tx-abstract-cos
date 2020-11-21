@@ -3,7 +3,7 @@
  * description: Basic cos class for next.
  * homepage: https://github.com/afeiship/next-tx-abstract-cos
  * version: 1.0.0
- * date: 2020-11-21 11:04:26
+ * date: 2020-11-21 11:05:35
  * license: MIT
  */
 
