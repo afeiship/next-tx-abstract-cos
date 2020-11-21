@@ -1,6 +1,6 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var COS = require('cos-nodejs-sdk-v5');
   var Promise = require('bluebird');
   var DEFAULT_OPTIONS = {

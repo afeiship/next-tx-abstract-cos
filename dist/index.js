@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-tx-abstract-cos
+ * name: @jswork/next-tx-abstract-cos
  * description: Basic cos class for next.
  * homepage: https://github.com/afeiship/next-tx-abstract-cos
  * version: 1.0.0
- * date: 2020-05-01T00:46:51.546Z
+ * date: 2020-11-21 11:04:26
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var COS = require('cos-nodejs-sdk-v5');
   var Promise = require('bluebird');
   var DEFAULT_OPTIONS = {
@@ -37,5 +37,3 @@
     module.exports = NxTxAbstractCos;
   }
 })();
-
-//# sourceMappingURL=next-tx-abstract-cos.js.map
